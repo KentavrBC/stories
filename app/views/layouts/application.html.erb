@@ -11,8 +11,8 @@
   <div class='menu-bar'>
 	  <img src='https://s3.amazonaws.com/codecademy-content/projects/z2d/stories/close-white.svg' class='menu-btn close'>
 	  <ul>
-  	  <li><a href='home'>Home</a></li>
-   		<li><a href='about'>About</a></li>
+  	  <li><%= link_to "Home", {controller: "pages", action: "home"} %></li>
+   		<li><%= link_to "About", {controller: "pages", action: "about"} %></li>
    		<li><a href='#'>Contacts</a></li>
   	</ul>
 	</div>
