@@ -1,0 +1,31 @@
+// Place all the styles related to the Signups controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.new-header {
+  background: url("http://freebigpictures.com/wp-content/uploads/2009/09/woods-path.jpg") no-repeat center center;
+  background-size: cover;
+  height: 600px;
+  .menu-btn {
+    margin: 25px;
+    height: 25px;
+    width: 25px;
+    float: left;
+    cursor: pointer;
+  }
+  h1 {
+    color: #fff;
+    margin-top: 150px;
+  }
+  form {
+    text-align: center;
+    label {
+      color: #fff;
+      font-size: 22px;
+    }
+    textarea {
+      color: #000;
+      height: 35px;
+      width: 140px;
+    }
+  }
+}

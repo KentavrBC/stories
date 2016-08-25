@@ -112,6 +112,24 @@ body {
   }
 }
 
+//thanks
+.thanks {
+  background: url("http://freebigpictures.com/wp-content/uploads/2009/09/woods-path.jpg") no-repeat center center;
+  background-size: cover;
+  height: 600px;
+  color: #fff;
+  .menu-btn {
+    margin: 25px;
+    height: 25px;
+    width: 25px;
+    float: left;
+    cursor: pointer;
+  }
+  h1 {
+    margin-top: 200px;
+  }
+}
+
 .footer {
   height: 100px;
   background-color: #d1d1d1;
