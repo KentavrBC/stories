@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-	font-family: 'Bree Serif', serif;
+	font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
 }
 
@@ -83,4 +83,7 @@ body {
 .footer {
   height: 100px;
   background-color: #d1d1d1;
+  p {
+    margin-top: 35px;
+  }
 }
